@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/da347b59d8.js" crossorigin="anonymous"></script>
+    <title>Dribble</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: "Mona sans", "Arial";
+            font-style: normal;
+        }
+    </style>
+
+<!-- Nav-bar -->
+
+    <section class="site-nav-bar flex gap-11 m-3">
+        <img src="LOGO.png" class="w-40">
+
+        <div style="position: relative; width: max-content">
+            <input type="text" class=" p-3 rounded-full bg-gray-200 w-[400px] hover:bg-white hover:border-2 hover:border-pink-200 ">
+            <p class="text-sm absolute top-4 left-6">What are you looking for ?</p>
+
+            <button style="position: absolute; right: 0; top: 0; font-size: small; height: 100%; 
+            border: none; padding: 0 70px; font-weight: bold; cursor:pointer;">
+            Shots <span class="w-5"><i class="fa-solid fa-angle-down"></i></span></button>
+
+            <span style="position: absolute; left: 350px; top: 9%; 
+            width: 60%;">
+            <img src="icone.png" class="w-10"></span>
+            
+
+        </div>
+
+        <ul class="flex gap-6 mt-4">
+            <li class="relative text-sm font-semibold group">Explore
+                <span class="w-5"><i class="fa-solid fa-angle-down"></i></span>
+                <ul class="absolute hidden group-hover:block m-0 p-4 mt-4 w-60 text-left text-[15px] bg-white shadow-2xl border rounded-md">
+                  <li class="font-semibold ml-4 mt-5"><span class="w-80 mr-2"><i class="fa-solid fa-chart-line"></i></span>Popular</li>
+                  <li class="font-semibold ml-4 mt-5"><span class="w-80 mr-2"><i class="fa-solid fa-wand-magic-sparkles"></i></span>New and Noteworthy</li>
+                  <div class="mb-2 mt-4 border-[0.5px] solid black;"></div>
+                  <li class="font-normal ml-4 mt-5">Product Design</li>
+                  <li class="font-normal ml-4 mt-5">Web Design</li>
+                  <li class="font-normal ml-4 mt-5">Animation</li>
+                  <li class="font-normal ml-4 mt-5">Branding</li>
+                  <li class="font-normal ml-4 mt-5">Illustration</li>
+                  <li class="font-normal ml-4 mt-5">Mobile</li>
+                  <li class="font-normal ml-4 mt-5">Typography</li>
+                  <li class="font-normal ml-4 mt-5">Print</li>
+                </ul>
+              </li>
+
+              <li class="relative text-sm font-semibold group">Hire a Designer 
+                <span class="w-5"><i class="fa-solid fa-angle-down"></i></span>
+                <ul class="absolute hidden group-hover:block m-0 p-4 mt-4 w-60 text-left text-[16px] bg-white shadow-2xl border rounded-md">
+                  <li class="font-semibold mb-2 mt-6"> <span class="w-[300] mr-2"><i class="fa-solid fa-magnifying-glass"></i></span>Browse Freelancers</li>
+                  <li class="font-semibold mb-2 mt-6"> <span class="w-[300] mr-2"><i class="fa-solid fa-tag"></i></span>Purchase Services</li>
+                  <li class="font-semibold mb-2 mt-6"> <span class="w-[300] mr-2"><i class="fa-solid fa-pen-to-square"></i></span>Submit a Project Brief</li>
+                  <li class="font-semibold mb-2 mt-6"> <span class="w-[300] mr-2"><i class="fa-solid fa-file-lines"></i></span>Post a Full-Time Job</li>
+                </ul>
+              </li>
+
+            <li class="text-sm font-semibold">Find Jobs</li>
+            <li class="text-sm font-semibold">Blog</li>
+            <li class="text-sm font-semibold">Sign up</li>
+        </ul>
+
+        <button class="bg-black text-white font-bold w-24 p-1 rounded-full">Log in</button>
+    </section>
+    
+<!-- PART1 -->
+<h1 class="ml-32 mt-16 font-bold text-[25px]">Call Center Dashboard</h1>
+<span class="flex gap-2 ml-32 mt-4 flex-wrap">
+    <img src="Physique.jpg" class="rounded-full w-14 h-14 mt-2 object-cover" alt="Physique">
+    <a href="#" class="font-bold text-[15px] mt-2">Imran Molla</a>
+    <a href="#" class="text-[15px] mt-2">for</a>
+    <a href="#" class="font-bold text-[15px] mt-2">Orizon: UI/UX Design Agency</a>
+    <a href="#" class="text-[12px] text-green-500 ml-2 mt-2">Available for work</a>
+    <a href="#" class="text-[12px] ml-2 mt-2">Follow</a>
+</span>
+
+<span class="flex gap-4 ml-48 text-[14px] -mt-6 ">
+    <h3 class="flex items-center gap-2">
+        <i class="fa-solid fa-envelope"></i> info@orizon.co
+    </h3>
+    <h3 class="flex items-center gap-2">
+        <i class="fa-solid fa-display"></i> orizon.co
+    </h3>
+</span>
+
+<div class="flex gap-4 ml-[900px]">
+    <div class="flex items-center justify-center w-10 h-10 bg-white text-black border-2 rounded-full">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    <div class="flex items-center justify-center w-10 h-10 bg-white text-black border-2 rounded-full">
+        <i class="fa-solid fa-bookmark"></i>
+      </div>
+      <button class="bg-black text-white font-bold text-sm w-32 p-1 rounded-full">Get in touch</button>
+</div>
+
+<section>
+    <img src="img1.webp" class="w-[80%] h-100vh ml-32 mt-8 rounded-xl">
+
+    <p class="ml-60 mt-10 text-[21px] font-sans">Hey Dribbblers 🏀</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Did you rest on the weekend? New week so we come back to you with a sneak 
+        <br>peek of another project of Call Center Dashboard 💁</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Introducing the Ultimate Call Center Dashboard UI Design for Seamless 
+        <br>Customer Interaction Management. Our Sleek and Modern UI Boasts Advanced 
+        <br>Features such as Real-Time Analytics, Customizable Reporting, Call Routing, 
+        <br>Agent Scheduling, and Predictive Dialing. There are 2 different variations that are
+        <br>trying. Scroll to see the full version! 👇</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Hit "L" If you like it. ❤️</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Soon more! 🙌</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Happy to see your thoughts below, cheers!</p>
+
+    <h1 class="ml-60 mt-11 text-[27px] font-extrabold" >Full Preview</h1>
+    <p class="ml-60 mt-1 text-[21px] font-sans">Here's the detail of our design project. Check it out!</p>
+
+<img src="img2.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">
+<img src="img3.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">
+
+    <h1 class="ml-60 mt-11 text-[27px] font-extrabold" >New Variation Design</h1>
+    <p class="ml-60 mt-1 text-[21px] font-sans">Here's another new different design project. Check it out!</p>
+    <img src="img4.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">
+</section>
+
+<section class="flex gap-4 mt-5 ml-40">
+    <img src="img4.webp" class="w-20 rounded-xl">
+    <img src="img3.webp" class="w-20 rounded-xl">
+    <img src="img4.webp" class="w-20 rounded-xl">
+</section>
+
+    <h1 class="ml-60 mt-14 text-[27px] font-extrabold" >Component Guideline</h1>
+    <p class="ml-60 mt-1 text-[21px] font-sans">The following component is used in our design projects.</p>
+    <img src="img5.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl"> 
+
+    <h1 class="ml-60 mt-14 text-[27px] font-extrabold" >Brand Guideline</h1>
+    <p class="ml-60 mt-1 text-[21px] font-sans">The following brand guidelines are used in our design projects.</p>
+    <img src="img6.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">   
+
+    <h1 class="ml-60 mt-14 text-[27px] font-extrabold" >Mockup Variations</h1>
+    <p class="ml-60 mt-1 text-[21px] font-sans">The following mockup is used in our design projects.</p>
+    <img src="img7.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">    
+    <img src="img8.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">    
+    <img src="img9.webp" class="w-[80%] h-100vh ml-32 mt-14 rounded-xl">    
+
+    <section class="flex gap-4 mt-5 ml-40">
+        <img src="img9.webp" class="w-20 rounded-xl">
+        <img src="img9.webp" class="w-20 rounded-xl">
+        <img src="IMGNN.webp" class="w-20 rounded-xl">
+    </section>
+
+    <img src="img10.webp" class="w-[80%] h-100vh ml-32 mt-20 rounded-xl">  
+    
+    <p class="ml-60 mt-10 text-[21px] font-sans">Thanks!</p>
+    <p class="ml-60 mt-10 text-[21px] font-sans">Available for crafting your ideas..</p>
+
+    <section class="flex items-center gap-4 ml-36 mt-52">
+        <div class="border border-black-100  w-[450px]"></div>
+        <img src="img11.webp" class="w-16 h-16 rounded-full">
+        <div class="border border-black-100  w-[450px]"></div>
+    </section>
+    
+    <section class="flex flex-col items-center gap-4">
+        <p class="text-center text-[22px] mt-8 font-medium">Orizon: UI/UX Design Agency</p>
+        <p class="text-center mt-1">We help startups & Fortune 500 companies design products</p>
+        <button class="bg-black text-white font-bold text-sm w-32 p-1 rounded-full">Get in touch</button>
+        <div class="flex gap-2 text-[14px]">
+            <h3 class="flex items-center gap-2">
+                <i class="fa-solid fa-envelope"></i> info@orizon.co
+            </h3>
+            <h3 class="flex items-center gap-2">
+                <i class="fa-solid fa-display"></i> orizon.co
+            </h3>
+        </div>
+    </section>
+    
+    <section class="flex gap-[100px] mt-16">
+        <h5 class="ml-40 font-bold">More by Orizon: UI/UX Design Agency</h5>
+        <h5 class="ml-[500px] text-[13px]">View profil</h5>
+    </section>
+
+
+    <section class="flex gap-5 mt-4 ml-40">
+        <img src="IMAGE G 4/IMG G1.webp" class="w-56 rounded-xl">
+        <img src="IMAGE G 4/IMG G2.webp" class="w-56 rounded-xl">
+        <img src="IMAGE G 4/IMG G3.webp" class="w-56 rounded-xl">
+        <img src="IMAGE G 4/IMG G4.webp" class="w-56 rounded-xl">
+    </section>
+
+    
+
+    <section class="flex justify-between items-center px-10 py-4 mt-20">
+       
+        <img src="LOGO.png" class="w-40">
+    
+       
+        <ul class="flex gap-9 text- [15px] font-semibold">
+            <li>For designers</li>
+            <li>Hire talent</li>
+            <li>Inspiration</li>
+            <li>Advertising</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>support</li>
+        </ul>
+    
+       
+        <span class="flex gap-4 text-xl">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+        </span>
+    </section>
+
+    <section class="flex justify-between items-center px-10 py-4 mt-14 mb-12">
+        
+        <ul class="flex gap-6 text-[15px] font-normal">
+            <li>© 2025 Dribbble</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+        </ul>
+    
+        <ul class="flex gap-6 text-[15px] font-normal">
+            <li>Jobs</li>
+            <li>Designers</li>
+            <li>Freelancers</li>
+            <li>Tags</li>
+            <li>Places</li>
+            <li>Ressources</li>
+        </ul>
+    
+    </section>
+    
+    
+        
+
+</body>
+</html>
